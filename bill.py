@@ -9,3 +9,7 @@ def check_people(people):
 
 def add_tip(total, tip_percent):
     return total + total * tip_percent / 100
+
+
+def round_money(amount):
+    return round(amount, 2)
