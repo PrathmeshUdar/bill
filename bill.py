@@ -13,3 +13,7 @@ def add_tip(total, tip_percent):
 
 def round_money(amount):
     return round(amount, 2)
+
+
+check_people(4)
+print(round_money(split_bill(add_tip(100, 10), 4)))
